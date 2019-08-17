@@ -1,4 +1,6 @@
 module.exports = {
+  plugins: ['cucumber'],
+
   overrides: [{
     files: 'test/integration/features/step_definitions/**/*-steps.js',
 
@@ -14,7 +16,9 @@ module.exports = {
             'Then'
           ]
         }
-      ]
+      ],
+      'prefer-arrow-callback': 'off',
+      'cucumber/no-arrow-functions': 'error'
     }
   }]
 };
