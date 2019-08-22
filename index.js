@@ -10,7 +10,9 @@ module.exports = {
         {
           capIsNewExceptions: [
             'Before',
+            'BeforeAll',
             'After',
+            'AfterAll',
             'Given',
             'When',
             'Then'
