@@ -20,7 +20,8 @@ module.exports = {
         }
       ],
       'prefer-arrow-callback': 'off',
-      'cucumber/no-arrow-functions': 'error'
+      'cucumber/no-arrow-functions': 'error',
+      'func-names': 'off'
     }
   }]
 };
