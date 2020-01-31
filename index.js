@@ -2,7 +2,7 @@ module.exports = {
   plugins: ['cucumber'],
 
   overrides: [{
-    files: 'test/integration/features/step_definitions/**/*-steps.js',
+    files: 'test/integration/**/features/step_definitions/**/*-steps.js',
 
     rules: {
       'new-cap': [
