@@ -30,6 +30,6 @@
     "remark-cli": "10.0.1"
   },
   "dependencies": {
-    "eslint-plugin-cucumber": "1.4.0"
+    "eslint-plugin-cucumber": "2.0.0"
   }
 }
