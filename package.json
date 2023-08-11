@@ -3,16 +3,10 @@
   "description": "Shareable config for ESLint for Cucumber.js tests",
   "license": "MIT",
   "version": "0.0.0-semantically-released",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "form8ion/eslint-config-cucumber",
   "bugs": "https://github.com/form8ion/eslint-config-cucumber/issues",
   "homepage": "https://npm.im/@form8ion/eslint-config-cucumber",
-  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:js": "eslint . --cache",
@@ -20,6 +14,16 @@
     "lint:sensitive": "ban",
     "prepare": "husky install",
     "lint:publish": "publint --strict"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "eslint-plugin-cucumber": "2.0.0"
   },
   "devDependencies": {
     "@form8ion/commitlint-config": "1.0.55",
@@ -31,8 +35,5 @@
     "npm-run-all": "4.1.5",
     "publint": "0.2.0",
     "remark-cli": "11.0.0"
-  },
-  "dependencies": {
-    "eslint-plugin-cucumber": "2.0.0"
   }
 }
