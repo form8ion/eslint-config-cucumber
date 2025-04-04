@@ -53,11 +53,11 @@ $ npm test
 
 [npm-link]: https://www.npmjs.com/package/@form8ion/eslint-config-cucumber
 
-[npm-badge]: https://img.shields.io/npm/v/@form8ion/eslint-config-cucumber.svg
+[npm-badge]: https://img.shields.io/npm/v/@form8ion/eslint-config-cucumber?logo=npm
 
 [license-link]: LICENSE
 
-[license-badge]: https://img.shields.io/github/license/form8ion/eslint-config-cucumber.svg
+[license-badge]: https://img.shields.io/github/license/form8ion/eslint-config-cucumber.svg?logo=opensourceinitiative
 
 [commit-convention-link]: https://conventionalcommits.org
 
