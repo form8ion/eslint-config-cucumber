@@ -15,6 +15,7 @@
     "lint:sensitive": "ban",
     "prepare": "husky install",
     "lint:publish": "publint --strict",
+    "lint:js:fix": "run-s 'lint:js -- --fix'",
     "lint:lockfile": "lockfile-lint"
   },
   "files": [
