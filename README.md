@@ -1,7 +1,8 @@
 # eslint-config-cucumber
 
 [Shareable config](https://eslint.org/docs/developer-guide/shareable-configs#shareable-configs)
-for [ESLint](https://eslint.org) for [Cucumber.js](https://github.com/cucumber/cucumber-js) tests
+for [ESLint](https://eslint.org) for [Cucumber.js](https://github.com/cucumber/cucumber-js)
+tests
 
 <!--status-badges start -->
 
